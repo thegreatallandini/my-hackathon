@@ -42,14 +42,32 @@ constructor() {
           <h1 className="title">*HaCkAtHon</h1>
         </header>
       <form>
-          <button class="btn btn-primary" onClick={this.handleSubmit}>Refresh</button>
+<br></br>
+          <button className="btn btn-primary pt-3" onClick={this.handleSubmit}>Refresh</button>
       </form>
 
 <div>
 
+    <div >
+  <h1>Jokes</h1>
+ 
+      
+  <div class="row">
+  
+    <div class="col-sm-6">
 
-  <p>{this.state.jokes}</p>  
-   <p>{this.state.jokes1}</p>
+      <p>{this.state.jokes1}</p>
+    </div>
+    
+    <div class="col-sm-6">
+
+       <p>{this.state.jokes}</p> 
+    </div>
+  </div>
+</div>
+
+
+
    
 </div>
 
